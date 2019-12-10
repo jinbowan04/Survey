@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+  background-color: #dedede;
+}
+
+.header h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.QandUserA {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#Qtitle {
+  padding-bottom: 20px;
+}
+
+.Abuttons {
+  padding-top: 80px;
+  text-align: center;
+  display: block;
+  display: inline-block;
+}
+
+.Abuttons p {
+  width: 70px;
+  padding: 30px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  display: block;
+  display: inline-block;
+
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+}
+
+.Abuttons p:hover {
+  background-color: #dedede;
+  border-radius: 20px;
+}
+
+.sendBtn {
+  padding: 80px;
+}
+
+.sendBtn button {
+  background-color: #42ffaa;
+  width: 150px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.sendBtn img {
+  width: 50px;
+}
