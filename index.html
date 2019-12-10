@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="survey.css">
+    <script type="text/javascript" src="survey.js"></script>
     <title>Mielipidekysymys</title>
   </head>
 
@@ -19,17 +20,26 @@
       <p>Valitse alta yksi vaihtoehto ja napsauta Lähetä painiketta</p>
 
       <div class="Abuttons">
-        <p>Kyllä</p>
-        <p>En</p>
-        <p>En tiedä</p>
+        <p id="button1" onclick="btn1Active()">Kyllä</p>
+        <p id="button2" onclick="btn2Active()">En</p>
+        <p id="button3" onclick="btn3Active()">En tiedä</p>
+      </div>
+
+      <div class="userName">
+        <p>Muisathan jättää myös nimesi</p>
+        <input id="username" type="text" placeholder="esim. Matti"></input>
       </div>
 
       <div class="sendBtn">
-        <button>
+        <button onclick="send()">
           <img src="Pictures/paper-plane.png">
         </button>
       </div>
+    </div>
 
+    <div class="footer">
+      <p>@Savität Corporation Inc.</p>
+      <p>All Rights reserved</p>
     </div>
 
   </body>
