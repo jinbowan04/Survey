@@ -1,2 +1,2 @@
 # Survey
-Mind blowing survey...
+Mind blowing survey
